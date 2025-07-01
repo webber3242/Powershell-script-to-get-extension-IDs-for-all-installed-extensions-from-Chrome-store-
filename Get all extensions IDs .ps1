@@ -1,12 +1,55 @@
-$chromeUserData = "$env:LOCALAPPDATA\Google\Chrome\User Data\Default\Extensions"
-$outputFile = ".\extensions.txt"
-
-if (-Not (Test-Path $chromeUserData)) {
-    Write-Error "❌ Chrome extensions folder not found at: $chromeUserData"
-    exit 1
-}
-
-$extIDs = Get-ChildItem -Path $chromeUserData -Directory | Select-Object -ExpandProperty Name
-
-Set-Content -Path $outputFile -Value $extIDs
-Write-Host "✅ Saved $(($extIDs).Count) extension IDs to: $outputFile"
+agmgoemhckhccgibmoigonndjhjllcoh
+apadglapdamclpaedknbefnbcajfebgh
+belllmbbbabkoadbpjiadbhmkldofbhe
+bhplkbgoehhhddaoolmakpocnenplmhf
+bjaniflnlhhofabpoamhnobeonjcjjpl
+cgfpgnepljlgenjclbekbjdlgcodfmjp
+chphlpgkkbolifaimnlloiipkdnihall
+clngdbkpkpeebahjckkjfobafhncgmne
+cmballfcidacmmjjoabfhbmdcehdiiok
+coipkghkkochnajalfnphljhkhfndbom
+dgomfjbifoldgpkfdodbdggkkdapgdij
+dhdgffkkebhmkfjojejmpbldmpobfkfo
+ecabifbgmdmgdllomnfinbmaellmclnh
+edibdbjcniadpccecjdfdjjppcpchdlm
+egeaclpkmakmmlcnodlhikihmhnakndl
+enamippconapkdmgfgjchkhakpfinmaj
+epebbpgbdaoolneajfaccpgckebbbjfo
+epgompfelbjdpkmhmdkilhachongdmhe
+fgkneofekjjmiaaonglajoaffdmmcong
+fjkmabmdepjfammlpliljpnbhleegehm
+fommpldicogfgegfpcoibmhkbbdpodjg
+fplgihadlmhndfcccdojmblkdilfgkad
+gcalenpjmijncebpfijmoaglllgpjagf
+gebbhagfogifgggkldgodflihgfeippi
+ghbmnnjooekpmoecnnnilnnbdlolhkhi
+glnpjglilkicbckjpbgcfkogebgllemb
+gmehookibnphigonphocphhcepbijeen
+gmjaaefflbggfiacjihajgijemdlhkeb
+gnmdbogfankgjepgglmmfmbnimcmcjle
+hgegmplalfpnkfahiikedaghinbocfdd
+hiiildgldbpfbegcfgemoliikibfhaeh
+ieceeinfkigfaeoomfimmecebngempef
+igpepgofglnhfpmgbcjkndcfjemhoaac
+jjmflmamggggndanpgfnpelongoepncg
+jlbkfkcopgimfccacnelllnkohhpdpgo
+kdiokjemgpcccpfemfcbkhfddjjmipfb
+kehjfphhkfppnnjhdfhanmehkegdppho
+lieiooigeiockdceiekbikfaklnklmef
+ljibkoakojhilhemfdhnbkgfnddigike
+looepbdllpjgdmkpdcdffhdbmpbcfekj
+lplcmnhgijkkmflbmhabnccgelffpnog
+mgmhnaapafpejpkhdhijgkljhpcpecpj
+midkcinmplflbiflboepnahkboeonkam
+mmpokgfcmbkfdeibafoafkiijdbfblfg
+mnjggcdmjocbbbhaepdhchncahnbgone
+nckekbiiegkmgknacphnkoniclbkmglj
+nilgkmdhmhopdldmhjcnhamipoiipemh
+nmmhkkegccagdldgiimedpiccmgmieda
+nnpljppamoaalgkieeciijbcccohlpoh
+noogafoofpebimajpfpamcfhoaifemoa
+npjpaghfnndnnmjiliibnkmdfgbojokj
+odhjcgnlbagjllfbilicalpigimhdcll
+ofgclacikleghhcogobkchhfgeecoonp
+oldkbmmdbndonbiogadbbbmgdkdpjoae
+pbanhockgagggenencehbnadejlgchfc
